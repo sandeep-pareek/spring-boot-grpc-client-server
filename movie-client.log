@@ -1,0 +1,11 @@
+1736000326244:get-movies
+1736000376789:create-movie --imdbId 123 --title test --year 2024 --genre DRAMA
+1736000437238:get-movie
+1736000444774:get-movies
+1736000485009:create-movie --imdbId 123 --title test --year 2024 --genre DRAMA
+1736000656530:get-movies
+1736009889674:create-movie --imdbId 124 --title test --year 2023 --genre COMEDY
+1736009895258:get-movies
+1736009908646:create-movie --imdbId 124 --title test --year 2023 --genre COMEDY
+1736009913922:get-movies
+1736009930491:create-movie --imdbId 124 --title test --year 2023 --genre COM
