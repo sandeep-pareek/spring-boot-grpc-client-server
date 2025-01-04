@@ -74,7 +74,16 @@ docker run -d --name postgres \
   Or you can directly run main class in client.
 
 ## Demo
-
+  Once the client and server are up, in client shell, do 
+  ```
+  get-movies
+  ```
+  This will give empty list, as there are no movies added yet.
+  To add movies, do 
+  ```
+  create-movie --imdbId 124 --title test --year 2023 --genre COMEDY
+  ```
+  This will add a move to db. You can explore for rest of the CRUD operations
 ## Shutdown
 
 - To stop the applications, go to the terminals where they are running and press `Ctrl+C`;
